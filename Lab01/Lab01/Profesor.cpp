@@ -6,7 +6,7 @@ Profesor::Profesor()
 {
 }
 
-Profesor::Profesor(string, string, string, int, int)
+Profesor::Profesor(string id, string nombre, string direccion, int edad, int categoria)
 {
 }
 void Profesor::setId(string _id)
@@ -60,3 +60,4 @@ string Profesor::toString()
 	s << "Id: " << id << endl << "Nombre: " << nombre << endl << "Direccion: " << direccion << endl << "Edad: " << edad << endl << "Categoria: " << categoria;
 	return s.str();
 }
+
