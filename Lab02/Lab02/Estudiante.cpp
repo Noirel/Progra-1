@@ -12,7 +12,7 @@ Estudiante::Estudiante()
 	this->montoBeca = new float(0);
 }
 
-Estudiante::Estudiante(string* id, string* nombre, string* direccion, int* edad, string* tipoBeca, int* montoBeca)
+Estudiante::Estudiante(string* id, string* nombre, string* direccion, int* edad, string* tipoBeca, float* montoBeca)
 {
 	this->setId(id);
 	this->setNombre(nombre);
@@ -29,57 +29,57 @@ void Estudiante::setId(string* id)
 
 void Estudiante::setNombre(string* nombre)
 {
-	nombre = nombre;
+	this->nombre = nombre;
 }
 
-void Estudiante::setDireccion(string _direccion)
+void Estudiante::setDireccion(string *direccion)
 {
-	direccion = _direccion;
+	this->direccion = direccion;
 }
 
-void Estudiante::setEdad(int _edad)
+void Estudiante::setEdad(int *edad)
 {
-	edad = _edad;
+	this->edad = edad;
 }
 
-void Estudiante::setTipoBeca(string _tipoBeca)
+void Estudiante::setTipoBeca(string *tipoBeca)
 {
-	tipoBeca = _tipoBeca;
+	this->tipoBeca = tipoBeca;
 }
 
-void Estudiante::setMontoBeca(float _montoBeca)
+void Estudiante::setMontoBeca(float *montoBeca)
 {
-	montoBeca = _montoBeca;
+	this->montoBeca = montoBeca;
 }
 
 string Estudiante::getId()
 {
-	return id;
+	return *id;
 }
 
 string Estudiante::getNombre()
 {
-	return nombre;
+	return *nombre;
 }
 
 string Estudiante::getDireccion()
 {
-	return direccion;
+	return *direccion;
 }
 
 int Estudiante::getEdad()
 {
-	return edad;
+	return *edad;
 }
 
 string Estudiante::getTipoBeca()
 {
-	return tipoBeca;
+	return *tipoBeca;
 }
 
 int Estudiante::getMontoBeca()
 {
-	return montoBeca;
+	return *montoBeca;
 }
 
 string Estudiante::toString() {

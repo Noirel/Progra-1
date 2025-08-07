@@ -1,4 +1,29 @@
-﻿  Estudiante.cpp
+﻿  Contenedora.cpp
+  Estudiante.cpp
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(17,25): error C2665: 'Estudiante::Estudiante':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+      C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Estudiante.h(40,1):
+      puede ser 'Estudiante::Estudiante(Estudiante &&)'
+          C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(17,25):
+          'Estudiante::Estudiante(Estudiante &&)': el argumento 1 no puede convertirse de 'int' a 'Estudiante &&'
+              C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(17,26):
+              Razón: no se puede realizar la conversión de 'int' a 'Estudiante'
+      C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Estudiante.h(40,1):
+      o       'Estudiante::Estudiante(const Estudiante &)'
+          C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(17,25):
+          'Estudiante::Estudiante(const Estudiante &)': el argumento 1 no puede convertirse de 'int' a 'const Estudiante &'
+              C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(17,26):
+              Razón: no se puede realizar la conversión de 'int' a 'const Estudiante'
+      C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(17,25):
+      al hacer coincidir la lista de argumentos '(int)'
+  
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(23,2): warning C4156: eliminación de expresión de matriz sin utilizar el formato de matriz de 'delete'; formato de matriz sustituido
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(23,2): warning C4154: eliminación de una expresión de matriz; suministrada una conversión a puntero
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(24,2): warning C4156: eliminación de expresión de matriz sin utilizar el formato de matriz de 'delete'; formato de matriz sustituido
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(24,2): warning C4154: eliminación de una expresión de matriz; suministrada una conversión a puntero
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(25,2): warning C4156: eliminación de expresión de matriz sin utilizar el formato de matriz de 'delete'; formato de matriz sustituido
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(25,2): warning C4154: eliminación de una expresión de matriz; suministrada una conversión a puntero
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(26,2): warning C4156: eliminación de expresión de matriz sin utilizar el formato de matriz de 'delete'; formato de matriz sustituido
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Contenedora.cpp(26,2): warning C4154: eliminación de una expresión de matriz; suministrada una conversión a puntero
+C:\Users\ESCINF\Downloads\Progra-1-main\Progra-1-main\Lab02\Lab02\Estudiante.cpp(82,9): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
   Lab02.cpp
   Generando código...
-  Lab02.vcxproj -> C:\Users\ESCINF\source\repos\Lab02\x64\Debug\Lab02.exe
