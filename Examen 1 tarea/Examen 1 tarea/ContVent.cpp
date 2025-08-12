@@ -4,7 +4,7 @@ ContVent::ContVent()
 {
 	this->año = new int(0);
 	this->vecV = new double(0);
-	this->can = new int(12);
+	this->can = new int(0);
 }
 
 ContVent::ContVent(int* tm, int* año, double* vecV)
@@ -16,6 +16,15 @@ ContVent::ContVent(int* tm, int* año, double* vecV)
 		setAño(0);
 		setVecV(0);;
 	}
+}
+
+ContVent::~ContVent(){
+	
+	for(int i=0; i < *can; i++){
+		delete [i] vecV;
+	}
+	delete[] vecV;
+
 }
 
 int* ContVent::getAño()
@@ -43,7 +52,17 @@ void ContVent::setVecV(double* vecV)
 	if (*vecV < 0) {
 		this->vecV = new double(0);
 	}
-	else {
-		this->vecV = vecV;
+	else if (*can <= 12 && *can <! 0 && *vecV > 0) 
+	{
+		for(int i=0; i<*can; i++){
+			can++;
+			this->vecV[i] = *vecV;
+		}
 	}
 }
+
+double* ContVent::sumaDeVentas()
+{
+	return nullptr;
+}
+

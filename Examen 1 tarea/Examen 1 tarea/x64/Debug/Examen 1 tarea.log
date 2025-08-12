@@ -1,5 +1,133 @@
-﻿  ContVent.cpp
+﻿  ContEmp.cpp
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(7,8): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(7,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(7,13): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(8,8): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(8,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(8,17): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(16,11): error C2061: syntax error: identifier 'string'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(16,2): error C2535: 'Empleado::Empleado(void)': member function already defined or declared
+  (compiling source file 'ContEmp.cpp')
+      C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(15,2):
+      see declaration of 'Empleado::Empleado'
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(18,14): error C2061: syntax error: identifier 'string'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(19,18): error C2061: syntax error: identifier 'string'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(23,9): error C3646: 'getIdE': unknown override specifier
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(23,15): error C2059: syntax error: '('
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(23,17): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(24,9): error C3646: 'getNombreE': unknown override specifier
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(24,19): error C2059: syntax error: '('
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(24,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'ContEmp.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\ContEmp.cpp(12,10): error C2039: 'Empleado': is not a member of 'ContEmp'
+      C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\ContEmp.h(11,7):
+      see declaration of 'ContEmp'
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\ContEmp.cpp(14,10): error C2039: 'Empleado': is not a member of 'ContEmp'
+      C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\ContEmp.h(11,7):
+      see declaration of 'ContEmp'
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\ContEmp.cpp(16,22): error C2065: 'can': undeclared identifier
+  ContVent.cpp
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\ContVent.cpp(55,25): warning C4804: '<': unsafe use of type 'bool' in operation
   Empleado.cpp
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(7,8): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(7,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(7,13): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(8,8): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(8,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(8,17): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(16,11): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(16,2): error C2535: 'Empleado::Empleado(void)': member function already defined or declared
+  (compiling source file 'Empleado.cpp')
+      C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(15,2):
+      see declaration of 'Empleado::Empleado'
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(18,14): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(19,18): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(23,9): error C3646: 'getIdE': unknown override specifier
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(23,15): error C2059: syntax error: '('
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(23,17): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(24,9): error C3646: 'getNombreE': unknown override specifier
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(24,19): error C2059: syntax error: '('
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(24,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Empleado.cpp')
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(6,12): error C2039: 'idE': is not a member of 'Empleado'
+      C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(3,7):
+      see declaration of 'Empleado'
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(6,22): error C2061: syntax error: identifier 'string'
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(7,12): error C2039: 'nombreE': is not a member of 'Empleado'
+      C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.h(3,7):
+      see declaration of 'Empleado'
+  
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(7,26): error C2061: syntax error: identifier 'string'
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(12,11): error C7550: 'Empleado::{ctor}': the qualified name in this context names a constructor, not a type
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(12,20): error C2065: 'string': undeclared identifier
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(12,27): error C2059: syntax error: ','
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(12,43): error C2143: syntax error: missing ';' before '{'
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(12,43): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(17,12): error C2061: syntax error: identifier '{ctor}'
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(17,22): error C2143: syntax error: missing ';' before '{'
+C:\Users\fabri\source\repos\Progra-1\Examen 1 tarea\Examen 1 tarea\Empleado.cpp(17,22): error C2447: '{': missing function header (old-style formal list?)
   Examen 1 tarea.cpp
-  Generando código...
-  Examen 1 tarea.vcxproj -> C:\Users\ESCINF\source\repos\Examen 1 tarea\x64\Debug\Examen 1 tarea.exe
+  Generating Code...
